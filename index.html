@@ -1,42 +1,102 @@
 <!DOCTYPE html>
- <html>
-  <head>
-  <meta charset = "utf-8">
-  <title> Introduction to HTML </title>
-  </head>
-  <body>
-  <h1 id="about">
-   <p>
-   Greetings!
-   </p>
-  </h1>
-  <!-- A horizontal line to divide the header from the body content -->
+<html>
+<head>
+	<title>Genesis</title>
+</head>
+<body>
+<nav>
+	<ul>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Products</a></li>
+		<li><a href="#">Gallery</a></li>
+		<li><a href="#">Contact Us</a></li>
+	</ul>
+</nav>
+<form>
+	<h3>Log in here:</h3>
+	Username: <input type="text" name="username">
+	Password: <input type="password" name="userpassword">
+	<button> Log in</button>
+	<p>Forgot password? <a href="#">Recover.</a> </p>
+	<p>Don't have an account? Sign up <a href="#">here.</a> </p>
+</form>
+<h2> Learning Programming </h2>
+<p>
+A computer is a machine that receives some data which it then processes and outputs. You have your own computer called a brain. When a teacher asks you to calculate 4 x 4 this is known as data. At some stage you will have been taught to process this data by adding 4 + 4 + 4 + 4 together. The answer you give is the output of your calculation.
 
-  <hr />
+In order to process data, a computer must receive instructions or commands. However, it would be unfeasible to make the user input commands for everything. Even something as simple as saving a document or opening a browser takes thousands or even millions of lines of code. In response to this problem, stored programs have been invented.
 
-  <!-- Inserts a double line break  -->
+A stored program is a series of instructions stored in a computer's memory. When the program is used, the computer will then fetch each instruction from the stored program and execute it. This process was imagined by mathematician Charles Babbage and later implemented by Ada Lovelace, who was Lord Byron's daughter.
+</p>
 
-  <br />
-  <br />
-   <table width="100%">
-      <tr>
-        <td> 
-           <ul> 
-              <li>
-                 <a href ="#about"> About </a>
-              <li>
-           </ul>
-           <ul> 
-              <li>
-                 <a href ="index.html#contact"> Contact </a>
-              <li>
-           </ul> 
-         </td>
+<p>
+<h3> What are high-level and low-level programming languages? </h3>
 
-         <td width="80%"> 
-           <img src="" alt="background image " /> 
-         </td>
-       </tr>
-  </table>
- </body>
+A <b>low-level programming language </b> is one that is made to be easily understood by the computer. They include machine code and assembly language, both of which instruct computer hardware components to carry out instructions directly. However, low-level programming languages are difficult to learn and time-consuming to code.
+<p>
+A <b>high-level programming language</b> is made to help human programmers communicate easily to the computer. These languages can have gentler learning curves and be very powerful. Good examples of high-level programming languages include C, Java, LISP, Smalltalk, PASCAL, LOGO, Visual Basic and Python. These languages are usually compiled, or converted into low-level programming languages so that they can be executed directly. The person who invented the concept of a compiler was Grace Hopper, sometimes called "Amazing Grace".
+</p>
+<p>
+However, some programming languages are designed to be interpreted by another computer application, such as JavaScript, which is interpreted by web browsers, and PHP, which is interpreted by web servers.
+</p>
+<p>
+In principle, it's also possible to build a computer to directly understand a high-level programming language, so that in a sense that language is the "assembly language" of the computer. In practice, though, this is more difficult for the computer, so it's still considered a high-level language — the language is made for the human programmer and the computer has to try to catch up.
+</p>
+<p>
+Some high-level programming languages are designed for a specific purpose. JavaScript is for creating dynamic web pages, while ActionScript is responsible for Flash applications. Others are designed for general purpose. For example, Java can create a large number of programs ranging from games to physics simulations, from simple console programs to large-scale commercial software.
+</p>
+
+</p>
+
+<h3>Programming Paradigms</h3>
+<ol>
+	<li>Declarative</li>
+	<li>Object-oriented</li>
+	<li>Imperative</li>
+</ol>
+
+
+<h3>Data types</h3>
+<ul>
+	<li>Logical data types</li>
+	<li>Textual data types</li>
+	<li>Numeric data types</li>
+</ul>
+
+<h4>Introductory Web Courses</h4>
+<table border="1">
+	<thead>
+		<tr>
+			<th>Sn</th>
+			<th>Session</th>
+			<th>Date</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1</td>
+			<td>HTML5</td>
+			<td>12 October, 2020</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>CSS3</td>
+			<td>13 October, 2020</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>JavaScript</td>
+			<td>14 October, 2020</td>
+		</tr>	
+		<tr>
+			<td>4</td>
+			<td>PHP</td>
+			<td>15 October, 2020</td>
+		</tr>
+	</tbody>
+</table>
+
+
+<footer>&copy; CSC823 MSc students</footer>
+</body>
 </html>
